@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Гiбрыды</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Гiбрыды</h1>
+    </header>
+    <main>
+        <section class = "slider regular">
+            <figure>
+                <img src="img/DSC_0978.jpg">
+            </figure>
+            <figure>
+                <img src="img/DSC_0979.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0980.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0983.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0985.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0986.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0988.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0989.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0990.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0991.JPG">
+            </figure>
+            <figure>
+                <img src="img/DSC_0992.JPG">
+            </figure>
+        </section>
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="slick/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript">
+        $(document).on('ready', function() {
+          
+          $(".regular").slick({
+            dots: true,
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            centerMode:true
+          });
+
+        });
+    </script>    
+</body>
+</html>

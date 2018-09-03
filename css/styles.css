@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic');
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align:center;
+    font-size:4rem;
+  }
+
+  .slider {
+      width: 95%;
+      margin: 100px auto;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+    height:50vh;
+  }
+
+  figure {
+      height:50vh;
+  }
+
+  .slick-slide img {
+    width:auto;
+    height:100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+  }
+  
+  .slick-active {
+    opacity: .5;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
